@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.1.1
+- Fixes
+  - Fix parsing ICal files with CR/LF line endings (@pedrogarrett)
+  - Support "line folding" multiline entries as per the RFC for all line entries
+
 ## v1.1.0
 
 - Improvements
